@@ -38,6 +38,7 @@ export default function Home() {
           priority
         />
       </div>
+      <diV></diV>
 
       <div className={styles.grid}>
         <a
