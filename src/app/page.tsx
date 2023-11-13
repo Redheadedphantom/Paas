@@ -62,7 +62,7 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
-          <p>Learn about in an interactive course with&nbsp;quizzes!</p>
+          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
 
         <a
@@ -87,7 +87,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercels.
+            Instantly deploy your Next.js site to a shareable URL with Vercels
           </p>
         </a>
       </div>
