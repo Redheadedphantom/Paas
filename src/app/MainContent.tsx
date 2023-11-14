@@ -10,4 +10,4 @@ const MainContent: React.FC = () => {
   );
 };
 
-export default MainCont
+export default MainContent;
