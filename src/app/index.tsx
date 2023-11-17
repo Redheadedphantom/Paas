@@ -139,3 +139,62 @@ const Widgets: React.FC = () => {
                         'S',
                         'M',
                       ],
+
+                      datasets: [
+                        {
+                          backgroundColor: getStyle('--info'),
+                          borderColor: 'rgba(255,255,255,.55)',
+                          data: Array.from({ length: 15 }, () => random(80, 100)),
+                          label: 'Dataset',
+                        },
+                      ],
+                    }}
+                    options={{
+                      tooltips: {
+                        enabled: false,
+                        custom: false,
+                      },
+                      maintainAspectRatio: false,
+                      legend: {
+                        display: false,
+                      },
+                      scales: {
+                        xAxes: [
+                          {
+                            gridLines: {
+                              color: 'transparent',
+                              zeroLineColor: 'transparent',
+                            },
+                            ticks: {
+                              fontSize: 2,
+                              fontColor: 'transparent',
+                            },
+                          },
+                        ],
+                        yAxes: [
+                          {
+                            display: false,
+                            ticks: {
+                              display: false,
+                              min: Math.min.apply(Math, Array.from({ length: 15 }, () => random(80, 100))) - 5,
+                              max: Math.max.apply(Math, Array.from({ length: 15 }, () => random(80, 100))) + 5,
+                            },
+                          },
+                        ],
+                      },
+                    }}
+                  />
+                }
+              />
+            </CCol>
+          </CRow>
+        </DocsExample>
+        {/* Placeholder for more sections */}
+        {/* Add additional sections as needed */}
+        {/* ... */}
+      </CCardBody>
+    </CCard>
+  );
+};
+
+export default Widgets;
