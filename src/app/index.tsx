@@ -189,9 +189,6 @@ const Widgets: React.FC = () => {
             </CCol>
           </CRow>
         </DocsExample>
-        {/* Placeholder for more sections */}
-        {/* Add additional sections as needed */}
-        {/* ... */}
       </CCardBody>
     </CCard>
   );
