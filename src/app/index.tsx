@@ -111,7 +111,7 @@ const Widgets: React.FC = () => {
                 text="Lorem ipsum dolor sit amet enim."
               />
             </CCol>
-            
+          </CRow>
         </DocsExample>
         <DocsExample href="/components/widgets/#cwidgetstatse">
           <CRow>
