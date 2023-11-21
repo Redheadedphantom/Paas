@@ -25,7 +25,7 @@ const other = {
       url: 'https://codedthemes.gitbook.io/berry/',
       icon: icons.IconHelp,
       external: true,
-      target: 
+      target: true
     }
   ]
 };
