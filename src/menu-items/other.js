@@ -30,4 +30,4 @@ const other = {
   ]
 };
 
-export default othe;
+export default other;
