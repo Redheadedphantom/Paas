@@ -192,6 +192,6 @@ const Widgets: React.FC = () => {
       </CCardBody>
     </CCard>
   );
-
+};
 
 export default Widgets;
