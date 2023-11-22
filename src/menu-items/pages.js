@@ -29,3 +29,16 @@ const pages = {
           target: true
         },
 
+        {
+          id: 'register3',
+          title: 'Register',
+          type: 'item',
+          url: '/pages/register/register3',
+          target: true
+        }
+      ]
+    }
+  ]
+};
+
+export default pages;
