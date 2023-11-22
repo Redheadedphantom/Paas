@@ -1,5 +1,5 @@
 // assets
-import { IconTypography, IconPalette, IconShadow, IconWindmill } from '@tabler/icons';
+import { IconTypography, , IconShadow, IconWindmill } from '@tabler/icons';
 
 // constant
 const icons = {
