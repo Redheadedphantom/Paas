@@ -61,6 +61,7 @@ const utilities = {
           target: '_blank',
           url: 'https://mui.com/material-ui/material-icons/',
           breadcrumbs: false
+          commit
         }
       ]
     }
