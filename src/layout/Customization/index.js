@@ -209,7 +209,8 @@ const Customization = () => {
               </SubCard>
             </Grid>
           </Grid>
-
+        </PerfectScrollbar>
+      </Drawer>
     </>
   );
 };
