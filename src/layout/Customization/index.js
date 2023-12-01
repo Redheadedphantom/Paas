@@ -159,12 +159,7 @@ const Customization = () => {
                       }}
                     />
                     <FormControlLabel
-                      value="Inter"
-                      control={<Radio />}
-                      label="Inter"
-                      sx={{
-                        '& .MuiSvgIcon-root': { fontSize: 28 },
-                        '& .MuiFormControlLabel-label': { color: theme.palette.grey[900] }
+ .MuiFormControlLabel-label': { color: theme.palette.grey[900] }
                       }}
                     />
                   </RadioGroup>
