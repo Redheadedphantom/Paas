@@ -50125,5 +50125,4 @@ const lottie_newState = (asMilliseconds, asSeconds, asMinutes, asHours, asDays, 
   console.log("Fixed Set of Values:", "0.12s", "51min", "18hour", "2day", "1week", "24month", "5year", "2220year");
 };
 
-// Example usage
-lottie_newState(100, 2, 0.05, 0.002, 1, 0.00001, 0.000001, 0.0000001);
+
