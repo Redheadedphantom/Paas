@@ -182,17 +182,7 @@ const Customization = () => {
                   </Grid>
                   <Grid item xs>
                     <Slider
-                      size="small"
-                      value={borderRadius}
-                      onChange={handleBorderRadius}
-                      getAriaValueText={valueText}
-                      valueLabelDisplay="on"
-                      aria-labelledby="discrete-slider-small-steps"
-                      marks
-                      step={2}
-                      min={4}
-                      max={24}
-                      color="secondary"
+                     
                       sx={{
                         '& .MuiSlider-valueLabel': {
                           color: 'secondary.light'
