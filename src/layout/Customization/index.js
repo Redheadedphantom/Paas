@@ -199,7 +199,7 @@ const Customization = () => {
                         }
                       }}
                     />
-                  </Grid>
+
                   <Grid item>
                     <Typography variant="h6" color="secondary">
                       24px
