@@ -37,17 +37,17 @@ class Stack {
     }
   }
   
-//   // Example usage:
-//   const newStack = new Stack();
-//   newStack.push(1);
-//   newStack.push(2);
-//   newStack.push(3);
+  // Example usage:
+  const newStack = new Stack();
+  newStack.push(1);
+  newStack.push(2);
+  newStack.push(3);
   
-//   console.log("Stack:", newStack.items);
-//   console.log("Pop:", newStack.pop());
-//   console.log("Peek:", newStack.peek());
-//   console.log("Is Empty:", newStack.isEmpty());
-//   console.log("Size:", newStack.size());
-//   newStack.clear();
-//   console.log("Stack after clear:", newStack.items);
+  console.log("Stack:", newStack.items);
+  console.log("Pop:", newStack.pop());
+  console.log("Peek:", newStack.peek());
+  console.log("Is Empty:", newStack.isEmpty());
+  console.log("Size:", newStack.size());
+  newStack.clear();
+  console.log("Stack after clear:", newStack.items);
   
