@@ -27,15 +27,15 @@ class Stack {
     }
   
     // Return the size of the stack
-    size() {
-      return this.items.length;
-    }
+//     size() {
+//       return this.items.length;
+//     }
   
-    // Remove all elements from the stack
-    clear() {
-      this.items = [];
-    }
-  }
+//     // Remove all elements from the stack
+//     clear() {
+//       this.items = [];
+//     }
+//   }
   
   // Example usage:
   const newStack = new Stack();
